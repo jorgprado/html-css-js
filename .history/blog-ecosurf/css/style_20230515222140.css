@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    padding: 20px 20px;
+}
+
+.blue{
+    color: blue;
+}
+.grenn{
+    color: blue;
+}
+.red{
+    color: RED;
+}
+.purple{
+    color: purple;
+}
+.yellow{
+    color: yellow;
+}
+.gray{
+    color: gray;
+}
+.orange{
+    color: orange;
+}
+
+.logo span{
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+header menu{
+    display: flex;
+    padding: 20px 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header menu p{
+    padding-left: 10px;
+    border-right: 1px solid #000;
+    padding-right: 10px;
+}
+
+.banner{
+    margin: auto;
+    background-color: aquamarine;
+}
+
+header img{
+    align-items:center;
+    justify-content: center;
+    text-align: ;
+    width: 35px;
+    height: 35px;
+}
+
+header button{
+    height: 35px;
+    width: 60px;
+    margin: 20px 20px;
+    border-radius: 10px;
+}
